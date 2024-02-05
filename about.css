@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #c1b9c4;
+}
+header
+{
+    position:sticky;
+    top:0;
+    width:100%;
+    height:11vh;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color:  rgb(87, 84, 84);
+    border:5px solid white;
+}
+.heading
+{
+     color: white;
+     font-size: 32px;
+}
+.navmenu
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.navmenu ul
+{
+    height:60px;
+}
+.navmenu a
+{
+    padding:18px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+        
+}
+.navmenu a:hover
+{
+    transform: scale(1.1);
+    color:rgb(222, 9, 9)
+}
+section#about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right,purple,black);
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 20px;
+
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-content h2
+{
+    text-align: center;
+    font-size: 11vh;
+    color: #dfa0f7;
+}
+.about-content p
+{
+    font-size: 22px;
+    text-align: left;
+    color: white;
+}
+
+

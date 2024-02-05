@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../TemperatureCalculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5507,
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}
